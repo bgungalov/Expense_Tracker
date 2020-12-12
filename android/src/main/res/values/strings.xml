@@ -58,7 +58,7 @@
     <string name="total_string">Total</string>
 
     <string name="pref_currency_title">Currency</string>
-    <string name="pref_currency_default">USD</string>
+    <string name="pref_currency_default">BGN</string>
     <string-array name="pref_currency_list_titles">
         <item>BG Lev</item>
         <item>US Dollar</item>

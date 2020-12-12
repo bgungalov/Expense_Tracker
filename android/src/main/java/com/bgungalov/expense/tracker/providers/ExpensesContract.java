@@ -33,13 +33,13 @@ public final class ExpensesContract {
          * The MIME type of {@link #CONTENT_URI} providing a directory of categories.
          */
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.ematiyuk.expensetracer.provider.expense_category";
+                "vnd.android.cursor.dir/vnd.provider.expense_category";
 
         /**
          * The MIME type of a {@link #CONTENT_URI} sub-directory of a single category.
          */
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.ematiyuk.expensetracer.provider.expense_category";
+                "vnd.android.cursor.item/vnd.provider.expense_category";
 
         /**
          * Sort by ascending order of _id column (the order as items were added).
@@ -62,13 +62,13 @@ public final class ExpensesContract {
          * The MIME type of {@link #CONTENT_URI} providing a directory of expenses.
         */
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.ematiyuk.expensetracer.provider.expense";
+                "vnd.android.cursor.dir/vnd.provider.expense";
 
         /**
          * The MIME type of a {@link #CONTENT_URI} sub-directory of a single expense.
          */
         public static final String CONTENT_ITEM_TYPE =
-                "vnd.android.cursor.item/vnd.ematiyuk.expensetracer.provider.expense";
+                "vnd.android.cursor.item/vnd.provider.expense";
 
         /**
          * Sort by descending order of date (the most recent items are at the end).
@@ -96,13 +96,7 @@ public final class ExpensesContract {
          * The MIME type of {@link #CONTENT_URI} providing a directory of expenses with categories.
          */
         public static final String CONTENT_TYPE =
-                "vnd.android.cursor.dir/vnd.ematiyuk.expensetracer.provider.expense_with_category";
-
-        /**
-         * The MIME type of a {@link #CONTENT_URI} sub-directory of a single expense with a category.
-         */
-//        public static final String CONTENT_ITEM_TYPE =
-//                "vnd.android.cursor.item/vnd.ematiyuk.expensetracer.provider.expense_with_category";
+                "vnd.android.cursor.dir/vnd.provider.expense_with_category";
 
         /**
          * The content:// style URI for this joined table to filter items by a specific date.
