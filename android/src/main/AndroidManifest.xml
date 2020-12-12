@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.bgungalov.expense.tracker">
 
     <application
@@ -21,7 +22,8 @@
 
         <activity android:name="com.bgungalov.expense.tracker.activities.SettingsActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName="com.bgungalov.expense.tracker.activities.MainActivity">
+            android:parentActivityName="com.bgungalov.expense.tracker.activities.MainActivity"
+            tools:targetApi="jelly_bean">
             <!-- Parent activity meta-data to support Android 4.0 and lower -->
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bgungalov.expense.tracker.activities.MainActivity"/>

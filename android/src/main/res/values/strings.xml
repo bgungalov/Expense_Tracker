@@ -57,7 +57,7 @@
     <string name="no_expenses">There are no expenses.</string>
     <string name="total_string">Total</string>
 
-    <string name="pref_currency_title">Currency</string>
+    <string name="pref_currency_title">Change Currency</string>
     <string name="pref_currency_default">BGN</string>
     <string-array name="pref_currency_list_titles">
         <item>BG Lev</item>
